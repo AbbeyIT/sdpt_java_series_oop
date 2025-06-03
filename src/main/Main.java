@@ -20,6 +20,13 @@ public class Main {
 		// Product.java
 		Product p1 = new Product("Albono",  4.6f);
 		System.out.println(p1.price);
+		
+		
+		//Character.java
+		Character c = new Character("George", "Hi Mate", 100, 100,10); 
+		System.out.println(c.dialog);	
+		c.introduce();
+		
 	}
 
 }
