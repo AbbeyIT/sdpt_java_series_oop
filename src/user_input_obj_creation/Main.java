@@ -1,4 +1,4 @@
-package main_activity;
+package user_input_obj_creation;
 
 import java.util.Scanner;
 
