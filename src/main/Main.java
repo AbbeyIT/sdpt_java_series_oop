@@ -27,6 +27,12 @@ public class Main {
 		System.out.println(c.dialog);	
 		c.introduce();
 		
+		
+		//User.java
+		User u = new User(202514, "AMFA14", "Fernando", "Alonso");
+		String firstName = u.getFirstName();
+		System.out.println(firstName);
+		
 	}
 
 }
