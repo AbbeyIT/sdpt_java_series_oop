@@ -33,6 +33,11 @@ public class Main {
 		String firstName = u.getFirstName();
 		System.out.println(firstName);
 		
+		
+		// Employee.java
+		Employee e = new Employee("Ollie", "Bearman", "Driver", "UK", "Male", 20);
+		Employee e1 = new Employee("Yuki", "Tsunoda", "Driver");
 	}
+	
 
 }
